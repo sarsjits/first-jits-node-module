@@ -1,0 +1,23 @@
+{
+  "name": "first-jits-node-module",
+  "version": "0.1.0",
+  "description": "Experimental Node Module to be published on NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarsjits/first-jits-node-module.git"
+  },
+  "author": "Jitendra Sarswat <sarsjits@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarsjits/first-jits-node-module/issues"
+  },
+  "homepage": "https://github.com/sarsjits/first-jits-node-module#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
